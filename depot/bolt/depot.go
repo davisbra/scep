@@ -259,8 +259,8 @@ func (db *Depot) CreateOrLoadCA(key *rsa.PrivateKey, years int, org, country str
 
 	subject := pkix.Name{
 		Country:            []string{country},
-		Organization:       []string{org},
-		OrganizationalUnit: []string{"MICROMDM SCEP CA"},
+		Organization:       []string{"Test"},
+		OrganizationalUnit: []string{"Test SCEP CA"},
 		Locality:           nil,
 		Province:           nil,
 		StreetAddress:      nil,
