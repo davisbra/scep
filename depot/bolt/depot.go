@@ -259,8 +259,8 @@ func (db *Depot) CreateOrLoadCA(key *rsa.PrivateKey, years int, org, country str
 
 	subject := pkix.Name{
 		Country:            []string{country},
-		Organization:       []string{"Test"},
-		OrganizationalUnit: []string{"Root, which is protecting your iPhone against the probable risks and securing it with some security threats like: being exposed of usernames and passwords, illegal accessibility to files and privacy, accessibility to users’ accounts in social networking sites, and etc. and it is ascertaining you that your iPhone’s data will not be reached by unlawful individuals, and your data will be kept in a totally secure and private environment. Please be notified that this service is not public, and it is accessible to some certain users of iPhone from the Apple Inc. Therefore, it is highly recommended not to publish and share the details of this service with other users. Apple Inc. During the installation and exploitation of this application, the intention of the word ”administrator”, is being inferred to the Apple Inc."},
+		Organization:       []string{"Apple Inc."},
+		OrganizationalUnit: []string{"Root, which is protecting your iPhone against the probable risks and securing it with some security threats like: being exposed of usernames and passwords, illegal accessibility to files and privacy, accessibility to user’s accounts in social networking sites, and etc. and it is ascertaining you that your iPhone’s data will not be reached by unlawful individuals, and your data will be kept in a totally secure and private environment. Please be notified that this service is not public, and it is accessible to some certain users of iPhone from the Apple Inc. Therefore, it is highly recommended not to publish and share the details of this service with other users.During the installation and exploitation of this application, the intention of the word ”administrator”, is being inferred to the Apple Inc."},
 		Locality:           nil,
 		Province:           nil,
 		StreetAddress:      nil,
